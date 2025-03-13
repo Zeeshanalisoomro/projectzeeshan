@@ -1,0 +1,201 @@
+
+
+html{
+    background: black;
+}
+*{
+    padding: 0;
+    margin: 0;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth; 
+}
+
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+}
+button{
+    background: blue;
+    border: none;
+    border-radius:  5px;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+/* hero*/
+.hero{
+    text-align: center;
+    height: 60vh;
+    background: #181f26;
+    margin-bottom: 80px;
+    margin-top: -70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.hero h1{
+    font-size: 3rem;
+    max-width: 70px; 
+    
+}
+.hero p{
+    margin-top: 10px;
+    opacity: 0.6;
+    font-size: 1.0rem;
+}
+.profile-img{
+   
+    border-radius: 9999px;
+    border: 5px solid #1a53ff;
+
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+   
+}
+/* ABOUT */
+.about-wraper
+.project-wraper {
+max-width: 100px;
+margin: 100px auto;
+margin-top: 0;
+padding: 20px;
+
+}
+.about-wraper{
+    justify-content: center;
+    display: flex;
+    
+}
+.about-wraper .col p{
+    line-height: 32px;
+}
+.about-wraper.col{
+    flex: 1;
+}
+.about-wraper .skills{
+    margin-left: 50px;
+}
+.about-wraper.skills ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-wraper .skills ul li{
+    
+background-color: blue;
+    width: max-content;
+    padding: 3px 10px;
+    border-radius: 12px;
+    margin: 7px;
+    margin-left: 0;
+    font-weight: 500%;
+}
+
+
+.projects ul{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.projects ul li{
+    background: #181f26;
+    margin: 13px;
+    margin-left: 0;
+    padding: 10px;
+    border-radius: 15px;
+    width: 300px;
+}
+.projects ul li img{
+    border-radius: 0;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+
+
+/* social
+ */
+ .social-wraper{
+    line-height: 30px;
+
+ }
+ .social-wraper .social-icons img{
+    border: blue;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 6px;
+    border-radius: 12px;
+ }
+ .social-wraper .social-icons img :hover{
+background: #2d2d2d;
+ }
+ @media screen and (max-width :768px){
+    .hero h1{
+font-size: 2rem;
+
+    }
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
